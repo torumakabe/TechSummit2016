@@ -1,0 +1,96 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "agentCount": {
+      "value": 3
+      },
+    "agentEndpointDNSNamePrefix": {
+      "value": "dcosagent"
+    },
+    "agentVMSize": {
+      "value": "Standard_D2"
+    },
+    "disablePasswordAuthentication": {
+      "value": true
+    },
+    "enableNewStorageAccountNaming": {
+      "value": true
+    },
+    "enableVMDiagnostics": {
+      "value": true
+    },
+    "isValidation": {
+      "value": 0
+    },
+    "jumpboxEndpointDNSNamePrefix": {
+      "value": ""
+    },
+    "linuxAdminPassword": {
+      "value": ""
+    },
+    "linuxAdminUsername": {
+      "value": "azureuser"
+    },
+    "linuxOffer": {
+      "value": "UbuntuServer"
+    },
+    "linuxPublisher": {
+      "value": "Canonical"
+    },
+    "linuxSku": {
+      "value": "16.04.0-LTS"
+    },
+    "linuxVersion": {
+      "value": "16.04.201606270"
+    },
+    "masterCount": {
+      "value": 1
+    },
+    "masterEndpointDNSNamePrefix": {
+      "value": "dcosmaster"
+    },
+    "nameSuffix": {
+      "value": "ts16"
+    },
+    "oauthEnabled": {
+      "value": "true"
+    },
+    "postInstallScriptURI": {
+      "value": "disabled"
+    },
+    "setLinuxConfigurationForVMCreate": {
+      "value": 1
+    },
+    "sshRSAPublicKey": {
+      "value": "<your-ssh-public-key>"
+    },
+    "supportContactMail": {
+      "value": ""
+    },
+    "supportContactOrg": {
+      "value": ""
+    },
+    "supportContactPersonName": {
+      "value": ""
+    },
+    "vmsPerStorageAccount": {
+      "value": 5
+    },
+    "windowsAdminPassword": {
+      "value": ""
+    },
+    "windowsAdminUsername": {
+      "value": "azureuser"
+    },
+    "windowsJumpboxOffer": {
+      "value": "VisualStudio"
+    },
+    "windowsJumpboxPublisher": {
+      "value": "MicrosoftVisualStudio"
+    },
+    "windowsJumpboxSku": {
+      "value": "VS-2015-Enterprise-AzureSDK-2.7-WS2012R2"
+    }
+  }
+}

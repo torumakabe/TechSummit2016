@@ -1,1 +1,1 @@
-# (Work in progress) Sample code for MS Tech Summit 2016 Japan
+# Sample code for MS Tech Summit 2016 Japan

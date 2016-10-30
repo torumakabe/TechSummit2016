@@ -12,7 +12,7 @@
 ## DC/OS
 
 * ARM Template for DC/OS
-  * As of today, I reccomend to use Azure PowerShell to deploy this Template instead of Azure xplat CLI. Reference: [Default value being ignored when deploying with parameter file](https://github.com/Azure/azure-xplat-cli/issues/3225)
+  * As of today, I recommend to use Azure PowerShell to deploy this Template instead of Azure xplat CLI. Reference: [Default value being ignored when deploying with parameter file](https://github.com/Azure/azure-xplat-cli/issues/3225)
   * set your SSH public key to the parameter
 * Deploy Sample app to DC/OS
   * Use this [congiguration](https://github.com/ToruMakabe/TechSummit2016/blob/master/DCOS/Marathon/sampleaspdnc.json)
